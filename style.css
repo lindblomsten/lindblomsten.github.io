@@ -1,0 +1,46 @@
+body {
+	 background-image: url("lamp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: 100%;
+    background-color: gray;
+    margin-left: 60px;
+}
+
+h1 {
+	font-family: helvetica;
+	color: #FFF;
+	font-weight: 100;
+	font-size: 28px;
+}
+
+p {
+	font-family: helvetica;
+	color: #FFF;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #e0e0e0;
+    text-decoration: none;
+}
