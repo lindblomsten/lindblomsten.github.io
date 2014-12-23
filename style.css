@@ -1,41 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+
 body {
-	 background-image: url("lamp.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-     background-size: 100%;
-    background-color: gray;
-    margin-left: 60px;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(lamp.jpg);
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-	font-family: helvetica;
-	color: #FFF;
-	font-weight: 100;
-	font-size: 28px;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+  color: white;
 }
-
 p {
-	font-family: helvetica;
-	color: #FFF;
-	font-weight: 100;
-	font-size: 20px;
+  margin: 0;
+  font-size: 1.5rem;
+  color: white;
 }
 
 /* unvisited link */
 a:link {
-    color: #fafafa;
+    color: #d3d3d3;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #e0e0e0;
+    color: #d3d3d3;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #d3d3d3;
+    color: #7e7e7e;
     text-decoration: none;
 }
 
