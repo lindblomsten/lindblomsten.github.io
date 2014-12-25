@@ -14,37 +14,63 @@ body {
 
 h1 {
   text-transform: uppercase;
-  margin: 0;
+  margin: 10px 20px 10px 35px;
   font-size: 3rem;
   white-space: nowrap;
   color: white;
 }
+
+h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 8px 10px;
+  color: white;
+  margin: 0;
+  font: 1.5rem Sans-Serif;
+}
+
 p {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
 }
 
 /* unvisited link */
 a:link {
-    color: #d3d3d3;
+    color: #545454;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #d3d3d3;
+    color: #545454;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #7e7e7e;
+    color: #a8a8a8;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: #e0e0e0;
+    color: #a8a8a8;
     text-decoration: none;
+}
+
+.module {
+  margin: 0px 20px 10px 20px;
+  width: 580px;
+  height: 100px;
+  float: left;
+  position: relative;
+}
+
+.opp h2 {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  border-radius: 4px;
 }
